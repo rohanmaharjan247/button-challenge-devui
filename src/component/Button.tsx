@@ -24,8 +24,6 @@ function classNames(...classes: any[]) {
   return classes.filter(Boolean).join(' ');
 }
 
-function setClasses(buttonProps: ButtonProps) {}
-
 const Button = ({
   text,
   variant,
