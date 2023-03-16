@@ -52,11 +52,11 @@ const InputComponent = () => {
       <div className="component-container">
         <div>
           <p>{'<Input startIcon />'}</p>
-          <Input startIcon />
+          <Input startIcon="phone" />
         </div>
         <div>
           <p>{'<Input endIcon />'}</p>
-          <Input endIcon />
+          <Input endIcon="lock" />
         </div>
       </div>
       <div className="component-container grid-cols-1">

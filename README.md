@@ -13,11 +13,19 @@
     </a>
     <span> | </span>
     <a href="https://devchallenges.io/solutions/RUDRK9dG68YZKXcW4QVs">
-      Solution
+      Solution for Button Challenge
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/solutions/RUDRK9dG68YZKXcW4QVs">
+      Solution for Input Challenge
     </a>
     <span> | </span>
     <a href="https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY">
-      Challenge
+      Button Challenge
+    </a>
+      <span> | </span>
+    <a href="https://devchallenges.io/challenges/TSqutYM4c5WtluM7QzGp">
+      Input Challenge
     </a>
   </h3>
 </div>
@@ -30,6 +38,8 @@
 - [Overview](#overview)
   - [Built With](#built-with)
 - [Features](#features)
+  - [Button Challenge](#button-challenge)
+  - [Input Challenge](#input-challenge)
 - [How To Use](#how-to-use)
 - [Contact](#contact)
 
@@ -37,9 +47,10 @@
 
 ## Overview
 
-![screenshot](/src/images/Screenshot.png)
+![buttonscreenshot](/src/images/Screenshot.png)
+![inputscreenshot](/src/images/input-challenge.png)
 
-This project completes the button challenge of devChallenges. I learned how to use a shared button. The challenge was pretty simple and straightforward and I'm glad I could finish it easily.
+This project completes the button challenge and input challenge of devChallenges. I learned how to create a shared button as well as input. The challenge was pretty simple and straightforward and I'm glad I could finish it easily.
 
 ### Built With
 
@@ -51,6 +62,8 @@ This project completes the button challenge of devChallenges. I learned how to u
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
+### Button Challenge
+
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY) was to build an application to complete the given user stories.
 
 - User story: I can see different button types: default, outline and text
@@ -61,6 +74,19 @@ This application/site was created as a submission to a [DevChallenges](https://d
 - User story: I can have different colors
 - User story: When I hover or focus, I can see visual indicators
 - User story: I can still access all button attributes
+
+### Input Challenge
+
+- User story: I can see error state
+- User story: I can choose to disable input
+- User story: I can choose to have helper text
+- User story: I can choose to have an icon on the left or right (Use Google Icon and at least 5 variants)
+- User story: I can have different input sizes
+- User story: I can have different colors
+- User story: I can choose to have input take the width of the parent
+- User story: I can have multiline input like a textarea
+- User story: When I hover or focus, I can see visual indicators
+- User story: I can still access all input attributes
 
 ## How To Use
 

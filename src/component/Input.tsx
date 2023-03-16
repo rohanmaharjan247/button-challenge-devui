@@ -10,8 +10,22 @@ interface InputProps {
   fullWidth?: boolean;
   multiline?: boolean;
   rows?: number;
-  startIcon?: boolean;
-  endIcon?: boolean;
+  startIcon?:
+    | 'phone'
+    | 'lock'
+    | 'add_shopping_cart'
+    | 'storefront'
+    | 'house'
+    | 'coffee'
+    | 'local_shipping';
+  endIcon?:
+    | 'phone'
+    | 'lock'
+    | 'add_shopping_cart'
+    | 'storefront'
+    | 'house'
+    | 'coffee'
+    | 'local_shipping';
   attribute?: string;
 }
 
