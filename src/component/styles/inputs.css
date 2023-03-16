@@ -1,0 +1,112 @@
+label {
+  display: block;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.form-label {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.form-control {
+  padding: 16px 12px;
+  border-radius: 8px;
+  border: 1px solid #828282;
+  outline: none;
+  width: max-content;
+}
+
+.form-control:hover {
+  border: 1px solid #333333;
+}
+
+.hover {
+  border: 1px solid #333333;
+}
+
+.form-control:focus,
+.form-control:focus-within {
+  border: 1px solid #2962ff;
+}
+
+.form-control:focus + .form-label,
+.form-control:focus-within + .form-label {
+  color: #2962ff;
+}
+
+.focus {
+  border: 1px solid #2962ff;
+}
+
+.focus + .form-label {
+  color: #2962ff;
+}
+
+.error {
+  border: 1px solid #d32f2f;
+}
+
+.error + .form-label {
+  color: #d32f2f;
+}
+
+.form-control.error:focus,
+.form-control.error:focus-within {
+  border: 1px solid #d32f2f;
+}
+
+.form-control:disabled,
+.form-control[disabled] {
+  border: 1px solid #e0e0e0;
+}
+
+p.helper-text {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+p.helper-error {
+  color: #d32f2f;
+}
+
+.sm {
+  padding: 10px 12px;
+}
+
+.md {
+  padding: 18px 12px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.relative {
+  position: relative;
+  width: max-content;
+}
+
+.form-icons {
+  color: #828282;
+}
+
+.relative .start-icon {
+  position: absolute;
+  top: 42px;
+  left: 5px;
+}
+
+.relative .end-icon {
+  position: absolute;
+  top: 42px;
+  right: 10px;
+}
+
+.pl-32 {
+  padding-left: 32px;
+}
